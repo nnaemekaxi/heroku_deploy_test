@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn excel_comp.wsgi --log-file--
+web: gunicorn excel_comp.wsgi
